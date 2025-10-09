@@ -1,0 +1,18 @@
+# label,parent,notes
+Organization: autobacs.co.jp,,
+Folder: 01-Platform,Organization: autobacs.co.jp,Owner=Platform / 継承:外部IP制限+CMEK
+Project: abdi-shared-network,Folder: 01-Platform,Shared VPC / DNS / NAT
+Project: abdi-shared-logging,Folder: 01-Platform,集中ログ/メトリクス（Sink受け）
+Project: abdi-shared-cicd,Folder: 01-Platform,Cloud Build / Artifact Registry / WIF
+Folder: 02-BusinessUnits,Organization: autobacs.co.jp,事業部単位の境界
+Folder: DXI,Folder: 02-BusinessUnits,DXI部門
+Folder: tagEL,Folder: DXI,システム単位の境界
+Folder: prod,Folder: tagEL,本番（強制承認/最小権限）
+Project: abdi-tagel-prod-app,Folder: prod,GKE/Cloud Run / PubSub / Tasks
+Project: abdi-tagel-prod-data,Folder: prod,Cloud SQL / GCS / KMS / Secret
+Folder: stg,Folder: tagEL,ステージング（本番準拠）
+Project: abdi-tagel-stg-app,Folder: stg,アプリ
+Project: abdi-tagel-stg-data,Folder: stg,データ
+Folder: dev,Folder: tagEL,開発（自由度高/Quota制限）
+Project: abdi-tagel-dev-app,Folder: dev,アプリ
+Project: abdi-tagel-dev-data,Folder: dev,データ
