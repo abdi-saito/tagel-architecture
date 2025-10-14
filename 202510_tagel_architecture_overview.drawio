@@ -158,6 +158,9 @@
         <mxCell id="KU0HaTrigs29UVrVVI0A-70" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#00FF80;arcSize=50;" parent="KU0HaTrigs29UVrVVI0A-67" vertex="1">
           <mxGeometry x="53.166666666666664" y="96.25" width="3.6666666666666665" height="11" as="geometry" />
         </mxCell>
+        <mxCell id="vLD2lj7CkpS-3xhVEpW8-2" value="変更点5&lt;div&gt;KMS（CMEK）初期導入&lt;br&gt;&lt;div&gt;CMEK化&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=29.74;dy=28;boundedLbl=1;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="880" y="607.25" width="208.5" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
